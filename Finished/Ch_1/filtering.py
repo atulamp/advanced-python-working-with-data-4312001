@@ -32,7 +32,7 @@ print(lowers)
 
 # Use the filter on our data - let's filter out all seismic events that were *not* quakes
 # open the data file and load the JSON
-with open("../../30DayQuakes.json", "r") as datafile:
+with open("/workspaces/advanced-python-working-with-data-4312001/30DayQuakes.json", "r", encoding='utf-8') as datafile:
     data = json.load(datafile)
 
 
